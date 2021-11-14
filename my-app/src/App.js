@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Error from './components/Error/Error';
+import Form from './components/Form/Form';
+import PostList from './components/PostList/PostList';
+import BlogProvider from './contexts/blog.context'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BlogProvider>
+      <div className="App">
+        <Error/>
+        <Form />
+        <PostList/>
+      </div>
+    </BlogProvider>
+
   );
 }
 
