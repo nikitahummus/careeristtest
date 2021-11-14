@@ -25,6 +25,8 @@ react, используется контекс, react-hoocs, bootstrap
 ссылка на рабочую задеплоенную версию приложения
 
 рабочая инструкция по сборке и запуску
-запустить - клиент: cd my-app yarn start, - сервер: cd server npm start
+запустить 
+- клиент: cd my-app yarn start, 
+- сервер: cd server npm start
 
 
