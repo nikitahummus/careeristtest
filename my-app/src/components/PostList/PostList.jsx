@@ -9,8 +9,8 @@ export default function PostList() {
     loadPosts()
   }, [posts.length])
   return (
-    <div>
-      {posts.map(post => <Post key={post.id} post={post}></Post>)}
-    </div>
+    <div className="mb-3 w-100">
+  { posts.map(post => <Post key={post.id} post={post}></Post>) }
+    </div >
   )
 }

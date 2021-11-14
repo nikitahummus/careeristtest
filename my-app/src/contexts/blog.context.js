@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useState } from 'react';
+import { createContext, useContext, useState } from 'react';
 
 const BlogContext = createContext();
 
@@ -27,7 +27,6 @@ function BlogContextProvider({ children }) {
     const response = await fetch('http://localhost:3001/api/blog');
     if (response.ok) {
       const {allPosts} = await response.json();
-      console.log(allPosts)
       setPosts(allPosts);
     } else {
       setError('Failed to load posts from server');

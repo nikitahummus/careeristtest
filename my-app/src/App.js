@@ -7,7 +7,7 @@ import BlogProvider from './contexts/blog.context'
 function App() {
   return (
     <BlogProvider>
-      <div className="App">
+      <div className="App d-flex flex-column justify-content-center align-items-center">
         <Error/>
         <Form />
         <PostList/>
