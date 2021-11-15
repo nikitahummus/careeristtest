@@ -4,7 +4,7 @@ SPA приложение-блог
 БД - postgresql, ORM - sequelize,
 express
 - на клиенте:
-react, используется контекс, react-hoocs, bootstrap
+react, используется контекс, react-hoocs, bootstrap.
 на реализацию задания затрачено в пределах 4-5 часов
 
 какие задачи решены
