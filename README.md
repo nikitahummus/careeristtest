@@ -1,7 +1,7 @@
 краткое описание (в том числе: сервер, клиент, примененные технологии, затраченное время...)
 SPA приложение-блог
 - на сервере:
-БД - postgresql, ORM - sequelize
+БД - postgresql, ORM - sequelize,
 express
 - на клиенте:
 react, используется контекс, react-hoocs, bootstrap
